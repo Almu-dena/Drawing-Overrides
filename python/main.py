@@ -1,7 +1,11 @@
 import maya.cmds as cmds
 
+'''
+Script is subject to studio convention, substitute value of asset variable for the
+corresponding rig structure needed
+'''
 
-asset = '*:*:model_GRP' #subject to studio convention rig structure, to be substituted for needed asset
+asset = '*:*:model_GRP'
 def drawingOverrides():
     models = cmds.ls(asset)
     for m in models:

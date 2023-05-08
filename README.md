@@ -3,7 +3,7 @@
 
 This script allows the rapid turning off/on of drawing overrides in the display attribute for models in Maya.
 
-Used for a faster workflow in layout wireframe presentation dailies.
+Used for a faster workflow in layout color wireframe presentation dailies.
 
 -----------------------------------------------------------------
 
