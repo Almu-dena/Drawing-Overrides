@@ -7,6 +7,11 @@ corresponding rig structure needed
 
 asset = '*:*:model_GRP'
 def drawingOverrides():
+    """
+    Function that selects all assets with the convention of the variable and unchecks
+    drawingOverrides inside the display attribute for each
+    """
+
     models = cmds.ls(asset)
     for m in models:
         cmds.select(m)
